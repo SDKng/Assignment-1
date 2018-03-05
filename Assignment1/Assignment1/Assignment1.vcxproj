@@ -69,9 +69,13 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
+<<<<<<< HEAD
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <IncludePath>$(SolutionDir)\Core;$(IncludePath)</IncludePath>
   </PropertyGroup>
+=======
+  <PropertyGroup />
+>>>>>>> 604206e8315857628e8aa06b97a2d15a4ae191f4
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -79,9 +83,12 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
+<<<<<<< HEAD
     <Link>
       <AdditionalDependencies>$(SolutionDir)Debug\Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+=======
+>>>>>>> 604206e8315857628e8aa06b97a2d15a4ae191f4
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>

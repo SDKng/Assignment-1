@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 //Random Change
 
 #include <iostream>
@@ -22,5 +23,13 @@ int main() {
 	e.print();
 	
 	getchar();
+=======
+
+
+int main() {
+
+
+
+>>>>>>> 604206e8315857628e8aa06b97a2d15a4ae191f4
 	return 0;
 }
